@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="article.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="welcome.html"><img src="logo.png" alt="" width="9%"> Waleed Blog</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="welcome.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="AboutUs.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="NewArticle.html">New Articles</a></li>
+                <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                <li class="nav-item">
+                    <button id="logoutBtn" class="btn btn-danger nav-link">Log out</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="article-content">
+            <img id="article-image" src="" class="img-fluid" alt="Article Image">
+            <h1 id="article-title" class="my-4"></h1>
+            <p id="article-content"></p>
+        </div>
+    </div>
+
+    <script src="article.js"></script>
+</body>
+</html>

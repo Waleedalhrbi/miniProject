@@ -1,0 +1,38 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px; 
+}
+
+.navbar {
+    background-color: #12876f !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.about-section {
+    margin-top: 50px;
+}
+
+.about-section h1 {
+    color: #12876f;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
